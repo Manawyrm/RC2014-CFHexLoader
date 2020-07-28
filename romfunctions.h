@@ -12,7 +12,6 @@ extern void** _romfunctions;
 #define ROM_PUTCHAR_UART 5
 #define ROM_PF_OPEN 6
 #define ROM_PF_READ 7
-#define ROM_PF_WRITE 8
 #define ROM_PF_OPENDIR 9
 #define ROM_PF_READDIR 10
 #define ROM_CF_WRITE 11
