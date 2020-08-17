@@ -44,7 +44,7 @@ foreach (explode("\n", $data) as $line)
 			if (microtime(true) - $start > 1.0)
 			{
 				echo "Timeout waiting for " . $line . "\n";
-				continue;
+				die();
 			}
 		}
 		echo $read;
